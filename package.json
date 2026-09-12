@@ -1,0 +1,15 @@
+{
+  "name": "qiita-content",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Qiita articles managed by Qiita CLI",
+  "type": "commonjs",
+  "scripts": {
+    "preview": "qiita preview",
+    "new": "qiita new",
+    "publish": "qiita publish"
+  },
+  "devDependencies": {
+    "@qiita/qiita-cli": "^1.6.2"
+  }
+}
